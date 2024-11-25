@@ -7,7 +7,7 @@ const html = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf-8');
 const dom = new JSDOM(html);
 global.document = dom.window.document;
 
-require('./script');
+require('../script');
 
 test('Button click displays text', () => {
     const button = document.getElementById("displayTextButton");
