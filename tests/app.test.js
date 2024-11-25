@@ -13,5 +13,5 @@ test('Button click displays text', () => {
     const button = document.getElementById("displayTextButton");
     button.click();
     const text = document.getElementById("textContainer").innerText;
-    expect(text).toBe("Hello, CircleCI!");
+    expect(text).toBe("CircleCI is the best!");
 });
