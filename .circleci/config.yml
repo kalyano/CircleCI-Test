@@ -7,8 +7,14 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Init npm
+          command: npm init -y
+      - run:
           name: Install dependencies
           command: npm install
+      - run:
+          name: Install more dependencies
+          command: npm install --save-dev jest jsdom
       - run:
           name: Run tests
           command: npm test
