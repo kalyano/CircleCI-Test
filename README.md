@@ -24,6 +24,7 @@ This repository contains a simple web application built as part of a technical c
 ---
 
 ## Project Structure
+```bash
 /project-root
 ├── index.html         # Main application page
 ├── script.js          # JavaScript handling the button functionality
@@ -32,6 +33,7 @@ This repository contains a simple web application built as part of a technical c
 ├── package.json       # Node.js project metadata
 ├── .circleci/
 │   └── config.yml     # CircleCI pipeline configuration
+```
 
 ---
 
@@ -53,7 +55,7 @@ This repository contains a simple web application built as part of a technical c
 Expected output:
 	•	The test suite should confirm that clicking the button updates the page text.
 
-**CircleCI Configuration**
+## CircleCI Configuration
 
 Workflow
 
