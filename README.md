@@ -57,7 +57,7 @@ Expected output:
 
 ## CircleCI Configuration
 
-Workflow
+**Workflow**
 
 The .circleci/config.yml file automates:
 
@@ -65,7 +65,7 @@ The .circleci/config.yml file automates:
 	2.	Dependency Installation: Installs the necessary npm dependencies.
 	3.	Testing: Runs npm test to validate the application.
 
-config.yml:
+**config.yml:**
 ```bash
 version: 2.1
 jobs:
