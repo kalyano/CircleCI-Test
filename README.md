@@ -55,6 +55,8 @@ This repository contains a simple web application built as part of a technical c
 Expected output:
 	•	The test suite should confirm that clicking the button updates the page text.
 
+ ---
+
 ## CircleCI Configuration
 
 **Workflow**
