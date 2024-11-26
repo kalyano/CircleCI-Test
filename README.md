@@ -1,4 +1,4 @@
-# Simple Web App - CircleCI Challenge
+# Simple Web App
 
 ## Overview
 This repository contains a simple web application built as part of a technical challenge for CircleCI. The application demonstrates:
